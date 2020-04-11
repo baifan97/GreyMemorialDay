@@ -25,7 +25,7 @@ class GreyMemorialDay_Plugin implements Typecho_Plugin_Interface
 
 	    $date= new Typecho_Widget_Helper_Form_Element_Textarea('word', NULL,
 		'04-04
-07-13', _t('纪念日日期'), _t('填入形如07-13日期，一行一个'));
+12-13', _t('纪念日日期'), _t('填入形如12-13日期，一行一个'));
 	    $form->addInput($date);
 
 	    $color = new Typecho_Widget_Helper_Form_Element_Text('word2', NULL, NULL, _t('theme-color'),
