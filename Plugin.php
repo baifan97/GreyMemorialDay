@@ -72,5 +72,5 @@ function change_meta($hex_color='757575') {
         var meta = document.getElementsByTagName('meta');
         meta["theme-color"].setAttribute('content', '<?="#".$hex_color?>');
 	</script>
-	<?
+	<?php
 }
